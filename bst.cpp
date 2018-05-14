@@ -162,12 +162,13 @@ double BST::distance(){
   
 	return avg;
 }
-double BST::distance(Node* currentRoot, double d){
+	
+double BST::distance(Node* currentRoot, double dub){
 
 	if (currentRoot == NULL)
 	  return 0;
 	
-	return d + distance(currentRoot -> m_right, d + 1) + distance(currentRoot -> m_left, d + 1);
+	return d + distance(currentRoot -> m_right, dub + 1) + distance(currentRoot -> m_left, dub + 1);
 }
 
 //Functions for printing
