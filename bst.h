@@ -27,17 +27,17 @@ class BST{
 		void remove();
     
 	private:
-    //Node class
+    		//Node class
 		class Node{
     
-				public:
-					Node(string string_input, Node* root, Node* right = NULL, Node* left = NULL){
-            m_string = string_input; m_right = right; m_left = left;
-          }
+		public:
+		Node(string string_input, Node* root, Node* right = NULL, Node* left = NULL){
+           		 m_string = string_input; m_right = right; m_left = left;
+          	}
           
-					Node* m_left;
-					Node* m_right;
-					string m_string;
+		Node* m_left;
+		Node* m_right;
+		string m_string;
     };
     
 	  Node* m_root;
