@@ -78,7 +78,7 @@ int main(){
           else
             cout << "Tree is balanced." << endl;
 
-          else if (command == "rebalance"){
+         }else if (command == "rebalance"){
           
             vector<string> strings;
             tree.print(strings);
